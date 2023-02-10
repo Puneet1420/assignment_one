@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url("project1_img/background_img.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content:space-between;
+}
+nav img{
+    margin: 20px;
+    padding-left: 40px;
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    gap:10px;
+}
+nav ul li{
+    padding: 30px;
+    font-size: 21px;
+    list-style: none;
+    color: #ffc233;
+    font-family: "Red Rose";
+}
+nav button{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin:25px 65px;
+    color: #ffffff;
+    cursor: pointer;
+}
+h1{
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size:104px;
+    text-align: center;
+    color: #ffc233;
+    padding:100px 0px;
+}
+.read{
+    display: flex;
+    justify-content: center;
+}
+.read_btn{
+    padding: 28px 60px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin:-39px 65px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.bottom-logo{
+    width:100px;
+    position: absolute;
+    right:60px;
+   
+}
